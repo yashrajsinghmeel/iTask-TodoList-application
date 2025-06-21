@@ -27,6 +27,7 @@
 - **Tailwind CSS** – Utility-first CSS framework
 - **UUID** – For generating unique task IDs
 - **LocalStorage** – For persistent task storage
+- **React Icons** - For adding icons
 
 
 

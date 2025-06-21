@@ -1,13 +1,8 @@
-Here's your complete `README.md` content packaged as a **code file**. You can copy this and save it as `README.md` in the root of your `iTask` project folder before pushing to GitHub:
 
----
-
-```markdown
 # iTask 📝 - React Todo App
 
 **iTask** is a simple and elegant Todo List app built using **React** and **Tailwind CSS**. It helps you keep track of your daily tasks with features like adding, editing, deleting, and marking tasks as complete. All data is saved in your browser using **localStorage**, so your tasks stay even after refreshing the page!
 
----
 
 ## ✨ Features
 
@@ -18,7 +13,6 @@ Here's your complete `README.md` content packaged as a **code file**. You can co
 - 🔄 Automatically saves data using localStorage
 - 🎨 Beautiful and responsive UI with Tailwind CSS
 
----
 
 ## 📸 Screenshots
 
@@ -26,7 +20,6 @@ Here's your complete `README.md` content packaged as a **code file**. You can co
 
 > *Optional: Add a screenshot of your app in a `screenshots` folder and update the path above.*
 
----
 
 ## 🚀 Tech Stack
 
@@ -35,11 +28,11 @@ Here's your complete `README.md` content packaged as a **code file**. You can co
 - **UUID** – For generating unique task IDs
 - **LocalStorage** – For persistent task storage
 
----
+
 
 ## 📂 Folder Structure
 
-```
+
 
 iTask/
 ├── public/
@@ -52,9 +45,9 @@ iTask/
 ├── package.json
 └── README.md
 
-````
 
----
+
+
 
 ## 🧠 How It Works
 
@@ -63,7 +56,7 @@ iTask/
 - Another `useEffect` auto-saves the tasks into localStorage on any update.
 - Task completion toggle is handled by checkboxes with visual feedback (line-through).
 
----
+
 
 ## 💻 Getting Started
 
@@ -73,7 +66,6 @@ iTask/
 
 ### Installation
 
-```bash
 # Clone the repo
 git clone https://github.com/your-username/iTask.git
 
@@ -85,30 +77,25 @@ npm install
 
 # Start the development server
 npm run dev
-````
 
----
+
 
 ## 📢 Contributing
 
 Contributions are welcome!
 Feel free to fork this repo, open issues, and submit pull requests.
 
----
 
 ## 🧾 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [RGIPT License]().
 
----
 
 ## 🙋‍♂️ Author
 
 Made with ❤️ by [Yashraj Singh Meel](https://github.com/your-username)
 
-```
 
----
 
 ### ✅ What to Do Next:
 
@@ -118,4 +105,3 @@ Made with ❤️ by [Yashraj Singh Meel](https://github.com/your-username)
 4. Commit and push your project to GitHub.
 
 Let me know if you want a dark-theme badge style, deploy instructions (like Netlify or Vercel), or a Hindi description version!
-```

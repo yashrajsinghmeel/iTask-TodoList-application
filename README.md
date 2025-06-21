@@ -18,7 +18,6 @@
 
 ![screenshot](./screenshots/todo-app-screenshot.png)
 
-> *Optional: Add a screenshot of your app in a `screenshots` folder and update the path above.*
 
 
 ## 🚀 Tech Stack
@@ -104,5 +103,3 @@ Made with ❤️ by [Yashraj Singh Meel](https://github.com/your-username)
 2. Replace `your-username` with your GitHub username.
 3. Add a screenshot if you'd like — or delete that section.
 4. Commit and push your project to GitHub.
-
-Let me know if you want a dark-theme badge style, deploy instructions (like Netlify or Vercel), or a Hindi description version!

@@ -67,16 +67,16 @@ iTask/
 
 ### Installation
 
-# Clone the repo
+#### Clone the repo
 git clone https://github.com/your-username/iTask.git
 
-# Navigate into the project
+#### Navigate into the project
 cd iTask
 
-# Install dependencies
+#### Install dependencies
 npm install
 
-# Start the development server
+#### Start the development server
 npm run dev
 
 

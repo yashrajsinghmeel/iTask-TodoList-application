@@ -1,12 +1,121 @@
-# React + Vite
+Here's your complete `README.md` content packaged as a **code file**. You can copy this and save it as `README.md` in the root of your `iTask` project folder before pushing to GitHub:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+```markdown
+# iTask 📝 - React Todo App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**iTask** is a simple and elegant Todo List app built using **React** and **Tailwind CSS**. It helps you keep track of your daily tasks with features like adding, editing, deleting, and marking tasks as complete. All data is saved in your browser using **localStorage**, so your tasks stay even after refreshing the page!
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- ✅ Add new tasks
+- 📝 Edit existing tasks
+- 🗑️ Delete tasks
+- 📌 Mark tasks as completed
+- 🔄 Automatically saves data using localStorage
+- 🎨 Beautiful and responsive UI with Tailwind CSS
+
+---
+
+## 📸 Screenshots
+
+![screenshot](./screenshots/todo-app-screenshot.png)
+
+> *Optional: Add a screenshot of your app in a `screenshots` folder and update the path above.*
+
+---
+
+## 🚀 Tech Stack
+
+- **React.js** – Frontend library
+- **Tailwind CSS** – Utility-first CSS framework
+- **UUID** – For generating unique task IDs
+- **LocalStorage** – For persistent task storage
+
+---
+
+## 📂 Folder Structure
+
+```
+
+iTask/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── Navbar.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── package.json
+└── README.md
+
+````
+
+---
+
+## 🧠 How It Works
+
+- `useState` is used to manage the current input and task list.
+- On first load, `useEffect` fetches saved tasks from localStorage.
+- Another `useEffect` auto-saves the tasks into localStorage on any update.
+- Task completion toggle is handled by checkboxes with visual feedback (line-through).
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/iTask.git
+
+# Navigate into the project
+cd iTask
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+````
+
+---
+
+## 📢 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo, open issues, and submit pull requests.
+
+---
+
+## 🧾 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ Author
+
+Made with ❤️ by [Yashraj Singh Meel](https://github.com/your-username)
+
+```
+
+---
+
+### ✅ What to Do Next:
+
+1. Save this content into a file named `README.md` in the root of your project.
+2. Replace `your-username` with your GitHub username.
+3. Add a screenshot if you'd like — or delete that section.
+4. Commit and push your project to GitHub.
+
+Let me know if you want a dark-theme badge style, deploy instructions (like Netlify or Vercel), or a Hindi description version!
+```
